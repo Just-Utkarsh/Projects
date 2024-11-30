@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+    background-color: #061379;
+    background-image: url('light_of_dawn_by_bisbiswas_deeg7fq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+#search{
+    color: white;
+    background-color: #00000075;
+    box-shadow:white 2px 2px 2px 2px;
+}
+input::placeholder{
+    color: white;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.element {
+    color: white;
+    box-shadow: 0px 2px 0px 0px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #1c2d3275;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.element:hover {
+    color: black;
+    font-style: italic;
+    background-color: #e0e0e0;
+}
+
+.element-info {
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #1c2d3275;
+}
+
+.hidden {
+    display: none;
+}
